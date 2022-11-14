@@ -20,6 +20,7 @@ public enum RuleType: String {
   case impfstatusBZwei = "ImpfstatusBZwei"
   case impfstatusCZwei = "ImpfstatusCZwei"
   case impfstatusEZwei = "ImpfstatusEZwei"
+  case impfstatusEEins = "ImpfstatusEEins"
   case mask = "Mask"
 }
 

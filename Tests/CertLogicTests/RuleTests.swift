@@ -128,6 +128,17 @@ class RuleTests: XCTestCase {
         // Then
         XCTAssertEqual(ruleType, .impfstatusEZwei)
     }
+    
+    func testRuleType_ImpfstatusEEins() {
+        // Given
+        configureSut(type: "ImpfstatusEEins")
+
+        // When
+        let ruleType = sut.ruleType
+
+        // Then
+        XCTAssertEqual(ruleType, .impfstatusEEins)
+    }
 
     func testRuleType_mask() {
         // Given
